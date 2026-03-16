@@ -34,7 +34,7 @@ except ModuleNotFoundError:
 
 ROOT_DIR = Path(__file__).resolve().parent
 DB_PATH = ROOT_DIR / "stocks.db"
-AV_BASE = os.getenv("AV_BASE", "http://localhost:2345")
+AV_BASE = os.getenv("AV_BASE", "https://www.alphavantage.co")
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
 ALPHAVANTAGE_API_KEY = (
